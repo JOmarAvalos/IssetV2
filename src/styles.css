@@ -215,6 +215,30 @@ h6 {
     max-width: 90%;
 }
 
+#home .home-container #tituloMovil h1 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 45px;
+}
+
+
+/* Titulo Web  */
+
+@media (min-width: 768px) {
+    #home .home-container #tituloMovil {
+        display: none;
+    }
+}
+
+
+/* Titulo Movil */
+
+@media (min-width: 768px) {
+    .mobile-nav-active #mobile-nav #titulolWeb h1 {
+        display: none;
+    }
+}
+
 
 /* Carrucel Web */
 
@@ -592,10 +616,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 80px 0;
 }
 
+#about .about-container {
+    justify-content: center;
+}
+
 #about .about-container .background {
     min-height: 300px;
     background: url(../src/assets/img/about-img-v2.png) center top no-repeat;
     margin-bottom: 10px;
+    max-width: 90%;
 }
 
 #about .about-container .content {
