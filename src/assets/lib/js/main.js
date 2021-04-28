@@ -127,7 +127,7 @@ jQuery(document).ready(function($) {
 
     // CarouselWeb code
     $('#carouselWeb').carousel({
-        interval: 4000
+        interval: 6000
     });
     $(".carousel-control-prev").click(function() {
         $("#carouselWeb").carousel('prev');
@@ -138,7 +138,7 @@ jQuery(document).ready(function($) {
 
     // CarouselMovil code
     $('#carouselMovil').carousel({
-        interval: 4000
+        interval: 6000
     });
     $(".carousel-control-prev").click(function() {
         $("#carouselMovil").carousel('prev');

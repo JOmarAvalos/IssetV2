@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { CarruselWebService } from '../../services/carrusel-web.service';
+import { ImagenWeb } from '../../interfaces/imagenesWeb.modelo';
+
 
 @Component({
   selector: 'app-home',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  imagenesWeb: ImagenWeb[] = [];
+  imagenesWebv2: any[any] = [];
+
+  constructor( private carruselWebService: CarruselWebService ) {}
 
   ngOnInit() {
+    this.imagenesWeb = this.carruselWebService.getImagenesWeb();
   }
 
 }

@@ -1027,22 +1027,44 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #333;
     color: #fff;
-    line-height: 1;
-    padding: 8px 0;
+    display: inline-block;
+    font-size: 18px;
+    width: 50px;
+    line-height: 50px;
+    height: 50px;
     border-radius: 50%;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
     text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
 }
 
 #contact .social-links a:hover {
-    background: #2dc997;
-    color: #fff;
+    color: #e9e9e9;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#contact .foot-icon-bg-1 {
+    background: #8938ae;
+}
+
+#contact .foot-icon-bg-2 {
+    background: #3b5999;
+}
+
+#contact .foot-icon-bg-3 {
+    background: #1da1f3;
+}
+
+#contact .foot-icon-bg-4 {
+    background: #3CC44F;
 }
 
 #contact .form #sendmessage {
