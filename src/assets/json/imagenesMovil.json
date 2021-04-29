@@ -1,0 +1,16 @@
+[{
+        "id": 1,
+        "nombre": "promoMovil1",
+        "img": "assets/img/carruselMovil/promoMovil1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "promoMovil2",
+        "img": "assets/img/carruselMovil/promoMovil2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "promoMovil3",
+        "img": "assets/img/carruselMovil/promoMovil3.jpg"
+    }
+]
