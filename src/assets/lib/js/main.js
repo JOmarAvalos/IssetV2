@@ -147,5 +147,47 @@ jQuery(document).ready(function($) {
         $("#carouselMovil").carousel('next');
     });
 
+    // Envio de contacto
+    $("#contactForm").submit(function(event) {
+
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var subject = $("#subject").val();
+        var message = $("#message").val();
+
+        if (!(name == '' || email == '' || subject == '' || message == '')) {
+
+            var parametros = {
+                "name": name,
+                "email": email,
+                "subject": subject,
+                "message": message
+            };
+
+            $.ajax({
+                type: "POST",
+                url: 'contacto.php',
+                data: parametros,
+                beforeSend: function() {},
+                complete: function() {},
+                success: function(response) {
+                    var jsonData = JSON.parse(response);
+
+                    if (jsonData.success == "1") {
+
+                        $('#name').val('');
+                        $('#email').val('');
+                        $('#message').val('');
+
+                        $(".pop4").fadeIn(300);
+
+                    } else {
+                        alert(jsonData.message);
+                    }
+                }
+            });
+
+        }
+    });
 
 });
