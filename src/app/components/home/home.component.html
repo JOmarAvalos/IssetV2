@@ -353,37 +353,17 @@
                 <p class="section-description"></p>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+
+                <div class="col-lg-3 col-md-6" *ngFor="let imagenPromocion of imagenesPromocion; let i = index">
                     <div class="member">
-                        <div class="pic"><img src="./assets/img/promotions/promotion-1.jpg" alt=""></div>
-                        <h4>Título</h4>
-                        <span>Descripción</span>
+                        <div class="pic">
+                            <img [src]="imagenPromocion.img" alt="">
+                        </div>
+                        <h4>{{ imagenPromocion.titulo }}</h4>
+                        <span>{{ imagenPromocion.descripcionCorta }}</span>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="./assets/img/promotions/promotion-2.jpg" alt=""></div>
-                        <h4>Título</h4>
-                        <span>Descripción</span>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="./assets/img/promotions/promotion-3.jpg" alt=""></div>
-                        <h4>Título</h4>
-                        <span>Descripción</span>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="./assets/img/promotions/promotion-4.jpg" alt=""></div>
-                        <h4>Título</h4>
-                        <span>Descripción</span>
-                    </div>
-                </div>
             </div>
 
         </div>

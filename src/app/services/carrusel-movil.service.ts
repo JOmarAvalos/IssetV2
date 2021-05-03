@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ImagenMovil } from '../interfaces/imagenesMovil.modelo';
-import ImagenesMovilJson from '../../assets/json/imagenesMovil.json';
+import ImagenesMovilJson from '../../assets/json/imagenesCarrucelMovil.json';
 
 @Injectable({
   providedIn: 'root'

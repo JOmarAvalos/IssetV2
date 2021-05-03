@@ -1,0 +1,29 @@
+[{
+        "id": 1,
+        "titulo": "promoTitulo-1",
+        "descripcionCorta": "promoDescripcion-1",
+        "descripcionLarga": "promoDescripcionLarga-1",
+        "img": "assets/img/promotions/promotion-1.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "promoTitulo-2",
+        "descripcionCorta": "promoDescripcion-2",
+        "descripcionLarga": "promoDescripcionLarga-2",
+        "img": "assets/img/promotions/promotion-2.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "promoTitulo-3",
+        "descripcionCorta": "promoDescripcion-3",
+        "descripcionLarga": "promoDescripcionLarga-3",
+        "img": "assets/img/promotions/promotion-3.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "promoTitulo-4",
+        "descripcionCorta": "promoDescripcion-4",
+        "descripcionLarga": "promoDescripcionLarga-4",
+        "img": "assets/img/promotions/promotion-4.jpg"
+    }
+]
