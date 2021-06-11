@@ -987,6 +987,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 2px;
 }
 
+#promotions .modal .modal-footer .btnClose {
+    background: #2dc997;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
+
 
 /* Contact Section
   --------------------------------*/
