@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ImagenWeb } from '../interfaces/imagenesWeb.modelo';
-import ImagenesWebJson from '../../assets/json/imagenesCarrucelWeb.json';
+import ImagenesWebJson from '../../assets/json/imagenesCarruselWeb.json';
 
 @Injectable({
   providedIn: 'root'
